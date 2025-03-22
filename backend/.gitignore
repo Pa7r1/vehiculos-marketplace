@@ -1,0 +1,34 @@
+# Entorno virtual
+venv/
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración del entorno de desarrollo
+.vscode/
+.idea/
+
+# Archivos de logs
+*.log
+
+# Base de datos local (si usas SQLite para pruebas)
+*.db
+
+# Dependencias generadas
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de cobertura de pruebas
+.coverage
+htmlcov/
+
+# Archivos de Python Mypy, Pytest, etc.
+.mypy_cache/
+.pytest_cache/
+
+# Docker (si llegas a usarlo)
+docker-compose.override.yml
